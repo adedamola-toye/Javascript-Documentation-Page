@@ -1,0 +1,40 @@
+body{
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+.nav-link{
+    padding-top: 3rem;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    line-height: 1.6rem;
+}
+@media (min-width:768px){
+    body{
+        display:flex;
+    }
+    #navbar{
+        width:20%;
+        height: 100%;
+        position: fixed;
+        border-right: 3px solid rgb(153, 148, 148);
+        /* padding: 0;
+        box-sizing: border-box; */
+    }
+    #main-doc{
+        width:90%;
+        padding-left:23%;
+        padding-top: 1rem;
+    }
+    
+    @media (max-width:768px){
+        #navbar{
+           height:100vh;
+           overflow-y: auto;
+           position:fixed;
+           
+        }
+    }
+   
+}
